@@ -11,3 +11,4 @@
 | Authorization grant | code that proves a user has authorized an action (clicked "Yes" in essence), this is returned to the authorization server to exchange it for an access token |
 | Redirect URI | also called callback url - if the user consents, to which where do I go next? |
 | Access token | key used to get into the data from the resource server |
+| Scope | A method to control the granularity of access - for example, allowing an app read-only access to a resource owner's data |
