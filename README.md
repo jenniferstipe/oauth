@@ -1,5 +1,9 @@
 # Oauth2
 
+## Spec
+
+https://datatracker.ietf.org/doc/html/rfc6749
+
 ## Terminology
 
 | Term  | Definition |
