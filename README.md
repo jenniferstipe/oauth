@@ -1,8 +1,14 @@
 # Oauth2
 
-## Spec
+## Specs
+
+OAuth2:
 
 https://datatracker.ietf.org/doc/html/rfc6749
+
+OIDC: 
+
+https://openid.net/specs/openid-connect-core-1_0.html
 
 ## Terminology
 
@@ -18,6 +24,7 @@ https://datatracker.ietf.org/doc/html/rfc6749
 | Scope | A method to control the granularity of access - for example, allowing an app read-only access to a resource owner's data |
 | Back channel | Highly secure channel encrypted with SSL over HTTPS - token exchange happens only on the back channel|
 | Front channel | Less secure channel, usually over a browser |
+| JWT | JSON Web Token - OpenID sends id tokens in this format |
 
 ## Starting the flow
 
@@ -25,7 +32,12 @@ Example url:
 
 https://accounts.google.com/o/oauth2/v2/auth?client_id=abc123&redirect_uri=https://yelp.com/callback&scope=profile&response_type=code&state=foobar
 
-## Oauth debugger
+## Debuggers
 
 https://oauthdebugger.com/
 
+https://oidcdebugger.com/
+
+## Tools
+
+https://jwt.io/
