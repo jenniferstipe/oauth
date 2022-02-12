@@ -24,7 +24,7 @@ https://openid.net/specs/openid-connect-core-1_0.html
 | Scope | A method to control the granularity of access - for example, allowing an app read-only access to a resource owner's data |
 | Back channel | Highly secure channel encrypted with SSL over HTTPS - token exchange happens only on the back channel|
 | Front channel | Less secure channel, usually over a browser |
-| JWT | JSON Web Token - OpenID sends id tokens in this format |
+| JWT | JSON Web Token - OpenID sends id tokens in this format, contains header, payload, claims, and signature |
 
 ## Starting the flow
 
