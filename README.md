@@ -12,3 +12,11 @@
 | Redirect URI | also called callback url - if the user consents, to which where do I go next? |
 | Access token | key used to get into the data from the resource server |
 | Scope | A method to control the granularity of access - for example, allowing an app read-only access to a resource owner's data |
+| Back channel | Highly secure channel encrypted with SSL over HTTPS - token exchange happens only on the back channel|
+| Front channel | Less secure channel, usually over a browser |
+
+## Starting the flow
+
+Example url:
+
+https://accounts.google.com/o/oauth2/v2/auth?client_id=abc123&redirect_uri=https://yelp.com/callback&scope=profile&response_type=code&state=foobar
